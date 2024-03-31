@@ -1,0 +1,30 @@
+.counter {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.counter-display {
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:last-child {
+  margin-right: 0;
+}
+
+.button-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
